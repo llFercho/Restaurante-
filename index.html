@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante el Fercho</title>
+  <script src="https://kit.fontawesome.com/9974e5a735.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="/Assets/img/cachosnegros.png" type="image/x-icon">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+  <header class="encabezado">
+    <div class="contenedor-navegacion">
+      <div class="contenido-navegacion contenedor">
+        <div class="logo">
+          <h2>Restaurante El <span class="verde">Fe</span><span>rc</span><span class="rojo">ho</span></h2>
+        </div>
+        <nav class="navegacion ocultar">
+          <a href="#">Inicio</a>
+          <a href="#">Sobre Nosotros</a>
+          <a href="#">Menu</a>
+          <a href="#">Chef</a>
+          <a href="#">Contacto</a>
+        </nav>
+        <div class="hamburguesa">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="contenido-header">
+      <div class="contenedor-encabezado">
+        <div class="texto-encabezado">
+          <h2>Welcom to Hell </h2>
+          <a class="btn bordes" href="#">menu</a>
+        </div>
+        <video autoplay loop muted>
+          <source src="/Assets/bg_video.mp4">
+        </video>
+      </div>
+    </div>
+  </header>
+
+  <div class="contenedor-nosotros contenedor">
+    <div class="texto-nosotros">
+      <p class="bienvenida">Bienvenidos a!</p>
+      <h1>Restaurante El <span class="verde">Fe</span><span>rc</span><span class="rojo">ho</span></h1>
+      <p>Espero que estén listos para disfrutar de una experiencia culinaria inolvidable. Aquí en nuestro restaurante,
+        ofrecemos una amplia variedad de platos de mariscos frescos y deliciosos que están seguros de satisfacer sus
+        deseos gastronómicos. Por favor, siéntete libre de pedir recomendaciones a nuestro personal amable y
+        experimentado. ¡Disfruten de su comida!</p>
+      <a href="https://api.whatsapp.com/send?phone=+573242439769&text=Hola, la pagina funciona"
+        class="btn btn-rojo">Conctactanos</a>
+    </div>
+    <div class="imagenes-nosotros">
+      <div class="imagen1">
+        <img class="img" data-src="/Assets/img/interiores3.webp" alt="mujer comiendo pizza">
+      </div>
+      <div class="imagenes2">
+        <img class="img" data-src="/Assets/img/interiores2.webp" alt="mujeres comiendo pizza">
+        <img class="img" data-src="/Assets/img/interiores1.webp" alt="comida">
+      </div>
+    </div>
+  </div>
+
+  <section class="menu contenedor">
+    <h2 class="texto-platillos">Platillos Populares</h2>
+    <div class="botones-platillos">
+      <button class="todos btn btn-verde">Todos</button>
+      <button class="entradas btn btn-verde">Entradas</button>
+      <button class="especial btn btn-verde">Especiales</button>
+      <button class="sopa btn btn-verde">Sopas</button>
+      <button class="postres btn btn-verde">Postres</button>
+    </div>
+    <div class="platillos">
+      <div class="platillo" data-platillo="entrada">
+        <img data-src="Assets/img/comida1.webp" alt="entrada">
+        <h2>Ceviche de pescado</h2>
+        <p>mezcla fresca de pescado blanco marinado en limón y cilantro, servido con totopos de maíz</p>
+        <div class="precio">
+          <p>$8</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="entrada">
+        <img data-src="Assets/img/comida2.webp" alt="entrada">
+        <h2>Almejas al ajillo</h2>
+        <p>almejas frescas salteadas con ajo, vino blanco y hierbas</p>
+        <div class="precio">
+          <p>$10.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="entrada">
+        <img data-src="Assets/img/comida3.webp" alt="entrada">
+        <h2>Camarones al coco</h2>
+        <p>camarones fritos rebozados en harina de coco y servidos con salsa de piña</p>
+        <div class="precio">
+          <p>$12.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="entrada">
+        <img data-src="Assets/img/comida4.webp" alt="entrada">
+        <h2>Pulpo a la parrilla</h2>
+        <p>pulpo fresco a la parrilla con hierbas y ajo, servido con una ensalada de verduras</p>
+        <div class="precio">
+          <p>$14.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="entrada">
+        <img data-src="Assets/img/comida5.webp" alt="entrada">
+        <h2>Rollos de primavera</h2>
+        <p>rollos de primavera rellenos de camarones, pescado blanco y verduras, servidos con salsa de soya</p>
+        <div class="precio">
+          <p>$8.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="especial">
+        <img data-src="Assets/img/comida6.webp" alt="especial">
+        <h2>Paella marinera</h2>
+        <p>una deliciosa mezcla de arroz con mariscos, salchichas y verduras</p>
+        <div class="precio">
+          <p>$20.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="especial">
+        <img data-src="Assets/img/comida7.webp" alt="especial">
+        <h2>Linguini con almejas</h2>
+        <p>linguini fresco con almejas salteadas en ajo, vino blanco y hierbas </p>
+        <div class="precio">
+          <p>$18.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="especial">
+        <img data-src="Assets/img/comida8.webp" alt="especial">
+        <h2>Pescado frito</h2>
+        <p>filete de pescado fresco empanizado y frito hasta dorado, servido con papas fritas y ensalada</p>
+        <div class="precio">
+          <p>$16.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="especial">
+        <img data-src="Assets/img/comida9.webp" alt="especial">
+        <h2>Arroz con mariscos</h2>
+        <p>arroz con una mezcla de camarones, pulpo, almejas y calamares</p>
+        <div class="precio">
+          <p>$22.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="especial">
+        <img data-src="Assets/img/comida10.webp" alt="especial">
+        <h2>Brochetas de camarones</h2>
+        <p>camarones marinados y asados en brochetas con verduras, servidos con arroz</p>
+        <div class="precio">
+          <p>$18.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="sopa">
+        <img data-src="Assets/img/comida11.webp" alt="sopa">
+        <h2>Sopa de mariscos</h2>
+        <p>sopa de pescado blanco y mariscos frescos con verduras</p>
+        <div class="precio">
+          <p>$12.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="sopa">
+        <img data-src="Assets/img/comida12.webp" alt="sopa">
+        <h2>Ensalada de mariscos</h2>
+        <p>ensalada fresca con camarones, pulpo, almejas y pescado blanco</p>
+        <div class="precio">
+          <p>$14.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="sopa">
+        <img data-src="Assets/img/comida13.webp" alt="sopa">
+        <h2>Sopa de tomate con mariscos</h2>
+        <p>sopa de tomate con camarones y pulpo frescos</p>
+        <div class="precio">
+          <p>$10.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="sopa">
+        <img data-src="Assets/img/comida14.webp" alt="sopa">
+        <h2>Ensalada César de mariscos</h2>
+        <p>ensalada César con camarones y pescado blanco frescos</p>
+        <div class="precio">
+          <p>$12.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="Assets/img/comida15.webp" alt="postre">
+        <h2>Flan de coco</h2>
+        <p>flan cremoso de coco con un toque de ralladura de limón</p>
+        <div class="precio">
+          <p>$6.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="Assets/img/comida16.webp" alt="postre">
+        <h2>Tarte de limón</h2>
+        <p>tarte de limón con una corteza crujiente y un relleno cremoso</p>
+        <div class="precio">
+          <p>$7.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="Assets/img/comida17.webp" alt="postre">
+        <h2>Sorbete de frutas</h2>
+        <p>sorbete de una mezcla de frutas del mar, como piña y mango</p>
+        <div class="precio">
+          <p>$5.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="Assets/img/comida18.webp" alt="postre">
+        <h2>Helado de coco</h2>
+        <p>helado cremoso de coco con un toque de ralladura de limón</p>
+        <div class="precio">
+          <p>$12.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="platillo" data-platillo="postre">
+        <img data-src="Assets/img/comida19.webp" alt="postre">
+        <h2>Pastel de maracuyá</h2>
+        <p>pastel de maracuya recubierto de gelatina</p>
+        <div class="precio">
+          <p>$3.0</p>
+          <button><i class="fa-sharp fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador">
+    <div class="contenido-separador contenedor">
+      <h2>Comida caribeña afrodisiaca</h2>
+      <p>¡Bienvenidos a la mesa de los placeres culinarios! Hoy tenemos un plato que seguramente estimulará tus sentidos
+        y te hará sentir vivo. ¡Prueba nuestro delicioso afrodisíaco y déjate llevar por sus sabores tentadores!"</p>
+      <a href="#" class="btn btn-verde">Ordena tu Monda </a>
+    </div>
+  </div>
+  <section class="chef contenedor">
+    <h2>Chef Ejecutivo</h2>
+    <div class="contenido-chef">
+      <div class="texto-chef">
+        <h3>El Chef Del Sabor Caribeño
+        </h3>
+
+        <p> Me presento como un reconocido chef con una gran pasión por la gastronomía y la
+          innovación culinaria. Durante mis años de carrera he tenido el privilegio de trabajar en algunos de los
+          mejores
+          restaurantes del mundo, experimentando con ingredientes exóticos y técnicas culinarias innovadoras para
+          ofrecer
+          a
+          mis clientes una experiencia gastronómica única e inolvidable.
+          <br>
+          <br>
+
+          Sin embargo, hay algo que me diferencia del resto de los chefs: mi fascinación por las sustancias ansestrales. Aunque sé
+          que
+          algunos pueden considerarlo un tema polémico, para mí es un ingrediente más en mi arsenal culinario. Conozco
+          sus
+          propiedades y he aprendido a utilizarlo de manera segura y responsable en mis platos, con el fin de crear
+          sabores
+          y texturas que de otro modo serían imposibles.
+
+          <br>
+          <br>
+
+          Atentamente
+          <br>
+          <br>
+
+          El Fercho
+        </p>
+        <a href="#" class="btn btn-verde">Leer Biografia</a>
+      </div>
+      <div class="imagen-chef">
+        <img data-src="/Assets/img/chef.webp" alt="foto">
+      </div>
+    </div>
+  </section>
+  <div class="formulario-contacto contenedor">
+    <div class="informacion-contacto">
+      <h3>Contactanos</h3>
+      <p><i class="fa-solid fa-location-pin-lock"></i>Cartagena Mz L lote 3</p>
+      <p><i class="fa-solid fa-envelope-circle-check"></i>ferney300810@gmail.com</p>
+      <p><i class="fa-sharp fa-solid fa-phone-volume"></i>3242439769</p>
+      <div class="redes-sociales">
+        <i class="fa-brands fa-facebook"> </i><i class="fa-brands fa-discord"></i><i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+    <form class="formulario">
+      <div class="input-formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Pepito" id="nombre">
+      </div>
+      <div class="input-formulario">
+        <label for="telefono">Telefono</label>
+        <input type="email" placeholder="+57-005-0003" id="telefono">
+      </div>
+      <div class="input-formulario">
+        <label for="email">Email</label>
+        <input type="text" placeholder="@example.com" id="email">
+      </div>
+      <div class="input-formulario">
+        <label for="preferencia">Preferencia</label>
+        <input type="text" placeholder="camarones" id="preferencia">
+      </div>
+      <div class="input-formulario">
+        <label for="mensaje">Mensaje</label>
+        <textarea></textarea>
+      </div>
+      <div class="btn-formulario">
+        <input type="submit" class='btn btn-verde' alue="Enviar">
+
+      </div>
+
+    </form>
+  </div>
+  <div class="pie-pagina">
+    <div class="contenedor-piepagina contenedor">
+      <div class="info">
+        <h3>Direccion</h3>
+        <p>Cartagena Mz L lote 3</p>
+      </div>
+      <div class="info">
+        <h3>Dias Especiales</h3>
+        <p>Sabados 4pm - 3am</p>
+        <p>3242439769</p>
+      </div>
+      <div class="info">
+        <h3>Horarios</h3>
+        <p>Jueves - Domingo 10am-2am </p>
+        <div class="redes-sociales redes-pie">
+          <i class="fa-brands fa-facebook"> </i>
+          <i class="fa-brands fa-discord"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="info">
+        <h3>Noticias</h3>
+        <p>Suscribite para mas info </p>
+        <input type="email" placeholder="tu correo">
+        <input type="submit" class="btn btn-verde" value="Suscribirse">
+      </div>
+    </div>
+    
+
+  </div>
+  </div>
+  <footer class="footer">
+    <p>Todos los derechos reservados &copy; 2022 Restaurente Fercho, Desarrollado por FerTech
+    </p>
+  </footer>
+  <script src="/js/app.js"></script>
+
+</body>
+
+</html>
